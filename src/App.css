@@ -1,0 +1,24 @@
+:root {
+  --background: #000000bf;
+  --purple: #7c36d6;
+  --secondary: rgba(69, 71, 78, 1);
+  --tertiary: rgba(255, 255, 255, 0.5);
+  --primary: white;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  position: absolute;
+  width: 87px;
+  height: 36px;
+  right: 199px;
+  top: 667px;
+}
+.selected {
+  @apply bg-black bg-opacity-30 rounded-xl;
+}

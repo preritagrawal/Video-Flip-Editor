@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+@layer utilities {
+  .scrollbar-blue::-webkit-scrollbar-thumb {
+    background: #3b82f6;
+  }
+  .scrollbar-blue::-webkit-scrollbar-thumb:hover {
+    background: var(--background);
+  }
+  .scrollbar-blue {
+    scrollbar-color: var(--tertiary) transparent;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+  }
+  .scrollbar-thin {
+    scrollbar-width: thin;
+  }
+}
